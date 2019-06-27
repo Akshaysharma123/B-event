@@ -1,0 +1,49 @@
+/* MAIN-BG.CSS contains Background Image paths & definition rules powered by CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.about-bg {
+    background-image: url('../images/bg/about-bg.png');
+}
+.journal-bg {
+    background-image: url('../images/bg/01.jpg');
+}
+.contact-bg {
+    background-image: url('../images/bg/contact-bg.png');
+}
+.portfolio-bg {
+    background-image: url('../images/bg/portfolio-bg.png');
+}
+
+.home-01-carousel-item-01{
+	background-image: url('../images/bg/01.jpg');
+}
+.home-01-carousel-item-02{
+	background-image: url('../images/bg/02.jpg');
+}
+.home-01-carousel-item-03{
+	background-image: url('../images/bg/03.jpg');
+}
+.project-01-carousel-item-01{
+	background-image: url('../images/project/project01/01.jpg');
+}
+.project-01-carousel-item-02{
+	background-image: url('../images/project/project01/02.jpg');
+}
+.project-01-carousel-item-03{
+	background-image: url('../images/project/project01/03.jpg');
+}
+.parallax-showcase-01{
+	background-image: url('../images/project/project01/02.jpg');
+}
+.parallax-showcase-02{
+	background-image: url('../images/project/project01/03.jpg');
+}
+.parallax-showcase-03{
+	background-image: url('../images/project/project01/01.jpg');
+}
+.call-to-action-bg{
+    background-image: url('../images/bg/portfolio-bg.png');
+}
+.stats-bg{
+    background-image: url('../images/bg/03.jpg');
+}

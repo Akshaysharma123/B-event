@@ -1,0 +1,106 @@
+.html{
+    background-image: url('../images/bg.png');
+    
+    height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.invalid-feedback{
+    color: brown;
+}
+.alert{
+    font-size:100% !important;
+    box-shadow: unset;
+    text-shadow: unset;
+}
+
+#image-preview {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    color: #ecf0f1;
+    border: 1px solid #ccc;
+  }
+  #image-preview input {
+    line-height: 200px;
+    font-size: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+  }
+  #image-preview label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #bdc3c7;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+  }
+  a.demo_img {
+    display: block;   
+    position:relative;
+    
+}
+
+a.demo_img>div {
+    position:absolute;
+    padding:0;
+    margin:0;
+    left: 155px; /* change this value to one that works best for you */
+    top: -18px; /* change this value to one that works best for you */
+    background: transparent url(../images/arrow-down-grey.png) left 23px no-repeat;
+    
+    opacity:0;
+    height: 0;
+    overflow: hidden;
+    
+    /* Enable transitions */
+    -webkit-transition: all .3s ease .15s;
+    -moz-transition: all .3s ease .15s;
+    -o-transition: all .3s ease .15s;
+    -ms-transition: all .3s ease .15s;
+    transition: all .3s ease .15s;
+}
+
+a.demo_img>div img {
+    /* height: 100px;
+    widows: 150px; */
+    padding:8px;
+    margin-left:4px;
+    border:1px solid #BCBDC0;
+    background-color:#BCBDC0;
+    -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+            border-radius: 5px;
+    
+    -webkit-box-sizing:border-box; 
+       -moz-box-sizing:border-box; 
+            box-sizing:border-box;
+}
+a.demo_img:hover>div {
+    
+    opacity:1;
+    height: 200px;
+    padding: 8px;   
+    
+    z-index:1;
+}
+.bg .nav li.dropdown.open>.dropdown-toggle{
+    background-color: #19242f;
+}
